@@ -1,0 +1,8 @@
+when@dev:
+    _errors:
+        resource: '@FrameworkBundle/Resources/config/routing/errors.xml'
+        prefix: /_error
+# config/routes/annotations.yaml
+controllers:
+    resource: ../../src/Controller/
+    type: annotation
