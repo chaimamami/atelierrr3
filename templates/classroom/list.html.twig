@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Afficher liste des Classroom</title>
+</head>
+
+<body>
+    <h1>Liste des classes</h1>
+    <ul>
+        {% for classroom in response %}
+            <li>{{ classroom.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
